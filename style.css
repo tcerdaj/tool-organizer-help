@@ -17,6 +17,7 @@ header {
 nav {
     margin: 10px 0;
     text-align: center;
+    overflow: hidden;
 }
 
     nav a {
