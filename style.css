@@ -23,6 +23,7 @@ nav {
         color: #333;
         text-decoration: none;
         margin: 0 15px;
+        float:left;
     }
 
         nav a:hover {
@@ -40,7 +41,6 @@ nav {
         border: none;
         outline: none;
         color: #333;
-        padding: 14px 16px;
         background-color: inherit;
     }
 
