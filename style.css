@@ -16,8 +16,8 @@ header {
 
 nav {
     margin: 10px 0;
-    text-align: center;
-    overflow: hidden;
+    justify-content:center;
+    display:flex;
 }
 
     nav a {
@@ -43,6 +43,7 @@ nav {
         outline: none;
         color: #333;
         background-color: inherit;
+        font-weight: bold;
     }
 
 .dropdown-content {
