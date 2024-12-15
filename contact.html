@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Support</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Contact Support</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Documentation &#x25BE;</button>
+            <div class="dropdown-content">
+                <a href="#reset-password">Reset Password</a>
+                <a href="#login">Login</a>
+                <a href="#register">Register</a>
+                <a href="#create-storage">Create Storage</a>
+                <a href="#create-location">Create Location</a>
+            </div>
+        </div>
+        <a href="#contact" style="font-weight:bold">Contact</a>
+    </nav>
+
+    <main>
+        <h3><span><strong>Contact Support</strong></span></h3>
+        <p>If you encounter any issues or have feedback, reach out to us:</p>
+
+        <ul>
+            <li><strong>Email:</strong> support@toolorganizerapp.com</li>
+            <li><strong>Phone:</strong>+1-800-123-4567</li>
+            <li><strong>Live Chat:</strong> <a href="#">Click Here</a></li>
+            <li><strong>Support Portal:</strong> <a href="#">Visit Here</a></li>
+        </ul>
+        <h3><span><strong>Support Hours:</strong></span></h3>
+        <p>Monday to Friday: 8 AM - 8 PM(EST)</p>
+        <p>Saturday: 10 AM - 4 PM(EST)</p>
+        <p>Sunday: Closed</p>
+        <h3><span><strong>Troubleshooting Checklist</strong></span></h3>
+        <p>Before contacting support, please:</p>
+        <ul>
+            <li>Restart your device or application.</li>
+            <li>Check your internet connection.</li>
+            <li>Ensure the software is updated to the lasted version.</li>
+            <li>Review the FAQs section below for common issues.</li>
+        </ul>
+        <h3><span><strong>Frequently Asked Questions (FAQs)</strong></span></h3>
+        <p>
+            <span><strong>Q: How do I reset my password?</strong></span><br>
+            <span>A: Click "Forgot Password" on the login page and follow the instructions sent to your registered email.</span>
+        </p>
+        <p>
+            <span><strong>Q: How can I track my order?</strong></span><br>
+            <span>A: Log in to your account and go to the "Orders" section to view tracking details.</span>
+        </p>
+        <p>
+            <span><strong>Q: What is the response time for email support?</strong></span><br>
+            <span>A: Email inquiries are typically answered within 24 hours on business days.</span>
+        </p>
+        <div contenteditable="false"><hr></div>
+        <h3><span><strong>Steps to Contact Support</strong></span></h3>
+        <ol data-spread="false" start="1">
+            <li><p><span><strong>Gather Information</strong></span><span>: Include your account details, issue description, and relevant screenshots.</span></p></li>
+            <li><p><span><strong>Select a Contact Method</strong></span><span>: Use one of the contact options listed above.</span></p></li>
+            <li><p><span><strong>Provide Feedback</strong></span><span>: Let us know how we can improve our services.</span></p></li>
+        </ol>
+        <div contenteditable="false"><hr></div>
+        <h3><span><strong>Feedback</strong></span></h3>
+        <p><span>Your feedback helps us improve! Please share your experience using our </span><span><a disabled="true">Feedback Form</a></span><span>.</span></p>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/xnnqknpr"
+              method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your Name:
+                <input type="text" name="fullname">
+            </label>
+            <label>
+                Your Phone Number:
+                <input type="tel" name="phonenumber">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <label>
+                Please add your screenshot:
+                <input type="file" name="attachment" accept="image/png, image/jpeg">
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tool Organizer. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
