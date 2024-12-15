@@ -44,7 +44,11 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-image-container img{
-    height:100%;
-    width:100%;
+.image-container{
+    overflow:hidden;
+}
+.image-container img {
+    height: auto;
+    width: 100%;
+    display: block; /* Removes bottom spacing caused by inline-block */
 }
