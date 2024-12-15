@@ -44,3 +44,7 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+image-container img{
+    height:100%;
+    width:100%;
+}
