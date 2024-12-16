@@ -30,6 +30,9 @@ nav {
         nav a:hover {
             text-decoration: underline;
         }
+.current-page {
+    font-weight: bold;
+}
 /* Dropdown Sub-menu */
 .dropdown {
     float: left;
@@ -43,7 +46,6 @@ nav {
         outline: none;
         color: #333;
         background-color: inherit;
-        font-weight: bold;
     }
 
 .dropdown-content {
